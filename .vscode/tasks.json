@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            //创建build文件夹
+            "label": "mkdir",
+            "type": "shell",
+            "command": "mkdir build -p"
+        },
+        {
+            //cmake编译
+            "label": "cmake",
+            "type": "shell",
+            "command": "cmake -DCGAL_DIR=/root/CGAL-5.3.1 -DCMAKE_BUILD_TYPE=Debug ..",
+            "dependsOn": [
+                "mkdir"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+        },
+        {
+            //make生成
+            "label": "make",
+            "type": "shell",
+            "command": "make -j4",
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+        }
+    ]
+}

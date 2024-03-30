@@ -1,0 +1,76 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Bb]uild/
+cgalTest/[Bb]uild/
+
+# PCLTest Build results
+PCLTest/[Dd]ebug/
+PCLTest/[Dd]ebugPublic/
+PCLTest/[Rr]elease/
+PCLTest/[Rr]eleases/
+PCLTest/x64/
+PCLTest/x86/
+PCLTest/bld/
+PCLTest/[Bb]in/
+PCLTest/[Oo]bj/
+PCLTest/[Ll]og/
+
+# Visual Studio 2019 cache/options directory
+.vs/
+
+# data
+data/process/**
+data/surface/**
+data/projection/**
+data/bbox/**

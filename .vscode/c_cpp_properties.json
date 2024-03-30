@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                //配置头文件
+                "${workspaceFolder}/**",
+                "/root/PCLTest/include/**",
+                "/root/PCLTest/src/**",
+                "/root/CGAL-5.3.1/**", //CGAL 5.3.1
+                "/usr/include/pcl-1.10/**" //PCL 1.10
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
